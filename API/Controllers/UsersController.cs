@@ -24,7 +24,7 @@ namespace API.Controllers
         {
             try
             {
-                var users = _userService.GetUsers();
+                var users = _userService.GetUsersDetails();
 
                 if (users != null)
                     return Ok(users);
@@ -44,7 +44,7 @@ namespace API.Controllers
         {
             try
             {
-                var users = _userService.GetUsers().Where(a => a.Id == userId);
+                var users = _userService.GetUsersDetails().Where(a => a.Id == userId);
 
                 if (users != null)
                     return Ok(users);
