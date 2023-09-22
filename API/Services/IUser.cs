@@ -2,6 +2,6 @@
 {
     public interface IUser
     {
-        List<User> GetUsersDetails();
+        List<User> GetUsers();
     }
 }
