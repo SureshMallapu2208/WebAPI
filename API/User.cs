@@ -10,9 +10,4 @@ namespace API
         public string Mobile { get; set; }
 
     }
-
-
-
-
-
 }
