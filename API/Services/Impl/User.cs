@@ -15,7 +15,7 @@ namespace API.Services.Impl
 
 
         }
-        public List<API.User> GetUsersDetails()
+        public List<API.User> GetUsers()
         {
 
             DataTable users = GetDtUsers();
