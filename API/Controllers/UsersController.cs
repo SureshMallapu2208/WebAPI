@@ -17,6 +17,8 @@ namespace API.Controllers
             _userService = userService;
 
         }
+
+
         // GET: api/<UsersController>
         [HttpGet]
         [Route("GetUsers")]
